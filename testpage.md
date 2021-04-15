@@ -1,3 +1,3 @@
 layout: page
-title: "PAGE TITLE"
-permalink: /URL-PATH/
+title: "This is a test page"
+permalink: /test/
