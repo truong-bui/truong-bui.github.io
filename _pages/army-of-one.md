@@ -1,6 +1,6 @@
 ---
 title: Army Of One
-permalink: /army-of-one/
+permalink: /army-of-one
 gallery:
   - url: /assets/images/unity/army-of-one-01.png
     image_path: /assets/images/unity/army-of-one-01.png

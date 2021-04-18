@@ -1,6 +1,6 @@
 ---
 title: Zombie Shooting
-permalink: /zombie-shooting/
+permalink: /zombie-shooting
 gallery:
   - url: /assets/images/unity/survive-the-zombie-attack-01.png
     image_path: /assets/images/unity/survive-the-zombie-attack-01.png

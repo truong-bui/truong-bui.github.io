@@ -1,6 +1,6 @@
 ---
 title: Runtime Mesh Importer
-permalink: /runtime-mesh-importer/
+permalink: /runtime-mesh-importer
 ---
 
 {% include figure image_path="/assets/images/unreal/runtime-mesh-importer-plugin-01.png" alt=""%}

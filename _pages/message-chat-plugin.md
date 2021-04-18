@@ -1,6 +1,6 @@
 ---
 title: Runtime Mesh Importer
-permalink: /message-chat-plugin/
+permalink: /message-chat-plugin
 ---
 
 {% include figure image_path="/assets/images/unreal/messaging-chat-plugin-screenshot-final.png" alt=""%}

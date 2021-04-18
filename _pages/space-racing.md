@@ -1,6 +1,6 @@
 ---
 title: Space Racing
-permalink: /space-racing/
+permalink: /space-racing
 gallery:
   - url: /assets/images/unity/space-racing-01.jpg
     image_path: /assets/images/unity/space-racing-01.jpg

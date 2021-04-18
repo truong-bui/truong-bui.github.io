@@ -1,6 +1,6 @@
 ---
 title: Async Loading Screen
-permalink: /async-loading-screen/
+permalink: /async-loading-screen
 ---
 
 {% include video id="3rwsNYPUr0I" provider="youtube" %}

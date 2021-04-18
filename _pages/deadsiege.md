@@ -1,6 +1,6 @@
 ---
 title: Deadsiege
-permalink: /deadsiege/
+permalink: /deadsiege
 gallery:
   - url: /assets/images/deadsiege/deadsiege02.png
     image_path: /assets/images/deadsiege/deadsiege02.png

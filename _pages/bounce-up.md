@@ -1,6 +1,6 @@
 ---
 title: Bounce Up
-permalink: /bounce-up/
+permalink: /bounce-up
 gallery:
   - url: /assets/images/unity/bounce-up-01.jpg
     image_path: /assets/images/unity/bounce-up-01.jpg

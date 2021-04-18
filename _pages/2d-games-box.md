@@ -1,6 +1,6 @@
 ---
 title: 2D Games Box
-permalink: /2d-games-box/
+permalink: /2d-games-box
 gallery:
   - url: /assets/images/unity/2d-games-box-01.jpg
     image_path: /assets/images/unity/2d-games-box-01.jpg

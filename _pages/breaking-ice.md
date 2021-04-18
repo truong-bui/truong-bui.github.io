@@ -1,6 +1,6 @@
 ---
 title: Breaking Ice
-permalink: /breaking-ice/
+permalink: /breaking-ice
 gallery:
   - url: /assets/images/unity/breaking-ice-01.png
     image_path: /assets/images/unity/breaking-ice-01.png
