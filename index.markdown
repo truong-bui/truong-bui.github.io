@@ -26,6 +26,12 @@ feature_row:
     url: "/deadsiege"
     btn_label: "Read More"
     btn_class: "btn--inverse"
+  - image_path: /assets/images/unreal/onlyviewplugins.png
+    title: "OnlyView Plugin"    
+    excerpt: "UE4 Plugin \\| C++"
+    url: "/onlyviewplugin"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/unity/survive-the-zombie-attack-01.png 
     title: "Zombie Shooting"
     excerpt: "Unity Game \\| C#"
@@ -74,7 +80,7 @@ My recent works are mostly related to developing plug-ins and applications in Un
 
 Besides game programming, I also have experience in level design, character design(modeling, texturing, or rigging).
 
-Furthermore, I have extensive indie game dev experience. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms, which gain me the ability to work on many areas in a game project.
+Furthermore, I have extensive indie game dev experience. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms, which gained me the ability to work on many areas in a game project.
 
 <h1> Experience </h1>
 ---

@@ -14,6 +14,6 @@ Features:
 - Automatically set up material for the imported mesh
 - Support importing over 40 3D formats
 - Support importing separate and embedded textures
-- Support change various kind of texture maps at runtime
-- Support change tint color of textures
+- Support changing various kind of texture maps at runtime
+- Support changing texture parameters (color, rotatation, tilt, etc..)
 - Imported mesh are serialized for save/load system
