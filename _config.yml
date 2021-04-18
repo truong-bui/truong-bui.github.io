@@ -18,17 +18,88 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Truong Bui's Portfolio
+email: truongbui1689@gmail.com
+name: "Truong Bui"
+time: 2021-04-18
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://truong-bui.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: truongbui89
+github_username:  truong-bui
+repository: "truong-bui/truong-bui.github.io"
+site.author: Truong Bui
+breadcrumbs: true
+author:
+  name     : "Truong Bui"
+  avatar   : "/assets/images/truong-bui.JPG"
+  bio      : "Senior Game Developer \\| Unreal Engine Developer"
+  location : "Vietnam"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:truongbui1689@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/truongbui89/"    
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/truongbui89"            
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/truong-bui/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nullpointerstudio.com/"
+    - label: "Hire Me!"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.upwork.com/freelancers/~01c8e71fa818c85e2a"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:truongbui1689@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/truongbui89/"    
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/truongbui89"            
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/truong-bui/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nullpointerstudio.com/"
+    - label: "Hire Me!"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.upwork.com/freelancers/~01c8e71fa818c85e2a"
 
+include: ["_pages"]
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true      
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 plugins:
