@@ -99,7 +99,7 @@ Furthermore, I have extensive indie game dev experience. Having worked on severa
 ---
 - C#, C++, UE4 Blueprints
 - Unity, Unreal Engine 4, Visual Studio
-- GitHub
+- Git/GitHub
 - Photoshop, Zbrush, Blender, Maya, Substance Painter, After Effect, Premiere Pro
 
 <h1> My Works </h1>
