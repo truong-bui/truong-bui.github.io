@@ -53,7 +53,7 @@ author:
       icon: "fas fa-fw fa-link"
       url: "https://nullpointerstudio.com/"
     - label: "Hire Me!"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-file-signature"
       url: "https://www.upwork.com/freelancers/~01c8e71fa818c85e2a"
 minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 footer:
@@ -74,7 +74,7 @@ footer:
       icon: "fas fa-fw fa-link"
       url: "https://nullpointerstudio.com/"
     - label: "Hire Me!"
-      icon: "fas fa-fw fa-link"
+      icon: "fas fa-fw fa-file-signature"
       url: "https://www.upwork.com/freelancers/~01c8e71fa818c85e2a"
 
 include: ["_pages"]
