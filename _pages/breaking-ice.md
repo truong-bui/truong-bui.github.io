@@ -14,7 +14,7 @@ gallery:
 {% include gallery %}
 
 <h2>Project description</h2>
-- Devices: Moible
+- Devices: Mobile
 - Platforms: Android, IOS
 - Game Engine: Unity
 - Game Genres: Casual, 3D
