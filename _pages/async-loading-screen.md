@@ -3,6 +3,8 @@ title: Async Loading Screen
 permalink: /async-loading-screen
 ---
 
+<iframe src="https://ghbtns.com/github-btn.html?user=truong-bui&repo=AsyncLoadingScreen&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 {% include video id="3rwsNYPUr0I" provider="youtube" %}
 *Plugin Trailer*
 {% include video id="Wd3Ll0oMfes?start=130" provider="youtube" %}
