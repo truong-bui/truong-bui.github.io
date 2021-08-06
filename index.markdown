@@ -80,7 +80,7 @@ Most of my recent works are related to developing plug-ins and applications in U
 
 I have extensive experience as an indie game developer. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms. That helps me gained the ability to work on many areas in a game project.
 
-Besides game programming, I also have experience in the entire digital art content creation pipeline (high and low-poly modeling, unwrapping, baking, texturing, rigging)
+Besides game programming, I also have experience in the digital art content creation pipeline (high and low-poly modeling, unwrapping, baking, texturing, rigging)
 
 <h1> Experience </h1>
 ---
