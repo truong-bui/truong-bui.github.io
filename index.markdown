@@ -74,13 +74,13 @@ feature_row:
 
 ---
 
-I’m a senior game developer with over 10 years of game industry experience. I have been using Unreal Engine since 2015. 
+I’m a senior game developer with over ten years of game industry experience. I have been using Unreal Engine since 2015.
 
-My recent works are mostly related to developing plug-ins and applications in Unreal Engine. My notable project is a free and open-source plug-in called Async Loading Screen for Unreal Engine. The plug-in was featured in the Unreal Engine Community Spotlight video, Sep 24, 2020.
+Most of my recent works are related to developing plug-ins and applications in Unreal Engine. My notable project is a free and open-source plug-in called Async Loading Screen for Unreal Engine. The plug-in was featured in the Unreal Engine Community Spotlight video, Sep 24, 2020.
 
-Besides game programming, I also have experience in level design, character design(modeling, texturing, or rigging).
+I have extensive experience as an indie game developer. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms. That helps me gained the ability to work on many areas in a game project.
 
-Furthermore, I have extensive indie game dev experience. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms, which gained me the ability to work on many areas in a game project.
+Besides game programming, I also have experience in the entire digital art content creation pipeline (high and low-poly modeling, unwrapping, baking, texturing, rigging)
 
 <h1> Experience </h1>
 ---
