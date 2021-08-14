@@ -78,7 +78,7 @@ I’m a senior game developer with over ten years of game industry experience. I
 
 Most of my recent works are related to developing plug-ins and applications in Unreal Engine. My notable project is a free and open-source plug-in called Async Loading Screen for Unreal Engine. The plug-in was featured in the Unreal Engine Community Spotlight video, Sep 24, 2020.
 
-I have extensive experience as an indie game developer. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms. That helps me gained the ability to work on many areas in a game project.
+I have extensive experience as an indie game developer. Having worked on several game genres like FPS, RPG, TPS, platformers, and successfully released many games on both PC and Mobile platforms. This helps me have the ability to work on many areas in a game project.
 
 Besides game programming, I also have experience in the digital art content creation pipeline (high and low-poly modeling, unwrapping, baking, texturing, rigging)
 
