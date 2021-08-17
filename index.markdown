@@ -88,10 +88,10 @@ Besides game programming, I also have experience in the digital art content crea
 - Proficient in Unreal C++ and Blueprint
 - Gameplay programming
 - AI programming
-- UI programming with UMG, or Slate
+- UI programming with UMG or Slate
 - Experience with developing complex animation systems
 - Experience with networking, rendering, and other systems impacting quality and performance    
-- Experience in implementing tools/plugins, and integrating third-party libraries into UE4
+- Experience in implementing tools/plugins and integrating third-party libraries into UE4
 - Ability to read and reuse engine source code	
 - Strong communication and collaboration skills
 
