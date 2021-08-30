@@ -101,7 +101,7 @@ Besides game programming, I also have experience in the digital art content crea
 - Unity, Unreal Engine 4, Visual Studio, Git/GitHub
 - Photoshop, Zbrush, Blender, Maya, Substance Painter, After Effect, Premiere Pro
 
-<h1> My Work </h1>
+<h1> My Works </h1>
 ---
 {% include feature_row %}
 
