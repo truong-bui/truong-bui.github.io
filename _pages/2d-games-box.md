@@ -8,6 +8,8 @@ gallery:
     image_path: /assets/images/unity/2d-games-box-02.jpg
 
 ---
+<h2>Trailer</h2>
+{% include video id="8INv6UMpktg" provider="youtube" %}
 
 <h2>Screenshots</h2>
 {% include gallery layout=half%}

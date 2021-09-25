@@ -10,6 +10,8 @@ gallery:
     image_path: /assets/images/unity/space-racing-03.jpg
 
 ---
+<h2>Trailer</h2>
+{% include video id="fOrQ6_Q3Qy8" provider="youtube" %}
 
 <h2>Screenshots</h2>
 {% include gallery %}
