@@ -1,6 +1,6 @@
 ---
-title: Typical Section 3D Creator
-permalink: /typical-section-3d
+title: 3D Typical Section Creator
+permalink: /3d-typical-section
 gallery:
   - url: /assets/images/TypicalSection3D/typical-section-3d-screenshot-01.png
     image_path: /assets/images/TypicalSection3D/typical-section-3d-screenshot-01.png

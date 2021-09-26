@@ -3,9 +3,9 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 feature_row:
   - image_path: /assets/images/TypicalSection3D/typical-section-3d-screenshot-05.png
-    title: "Typical Section 3D Creator"    
+    title: "3D Typical Section Creator"    
     excerpt: "UE4 Application \\| C++"
-    url: "/typical-section-3d"
+    url: "/3d-typical-section"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/unreal/AsyncLoadingScreenBackground.png
