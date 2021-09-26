@@ -1,7 +1,13 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-feature_row:  
+feature_row:
+  - image_path: /assets/images/TypicalSection3D/typical-section-3d-screenshot-05.png
+    title: "Typical Section 3D Creator"    
+    excerpt: "UE4 Application \\| C++"
+    url: "/typical-section-3d"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/unreal/AsyncLoadingScreenBackground.png
     title: "Async Loading Screen"    
     excerpt: "UE4 Plugin \\| C++"
