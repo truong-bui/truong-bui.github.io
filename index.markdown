@@ -21,7 +21,7 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/unreal/messaging-chat-plugin-screenshot-final.png   
-    title: "Message Chat Plugin"
+    title: "Message Chat"
     excerpt: "UE4 Plugin \\| C++"
     url: "/message-chat-plugin"
     btn_label: "Read More"
