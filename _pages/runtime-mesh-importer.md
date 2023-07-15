@@ -10,7 +10,7 @@ permalink: /runtime-mesh-importer
 
 <h2>Project description</h2>
 
-This is my freelance project on Upwork. Runtime Mesh Importer is a C++ plugin for Unreal Engine, it requires integrating a third-party library into UE4. Runtime Mesh Importer supports importing over +40 3D file formats into the UE4 application at runtime using [Assimp](https://github.com/assimp/assimp) library.
+Runtime Mesh Importer is a C++ plugin for Unreal Engine, it requires integrating a third-party library into UE4. Runtime Mesh Importer supports importing over +40 3D file formats into the UE4 application at runtime using [Assimp](https://github.com/assimp/assimp) library.
 
 Features:
 - Easy to use and install
