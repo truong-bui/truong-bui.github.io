@@ -98,7 +98,6 @@ Besides game programming, I also have experience in the digital art content crea
 - Experience with developing complex animation systems
 - Experience with networking, rendering, and other systems impacting quality and performance    
 - Experience in implementing tools/plugins and integrating third-party libraries into UE4
-- Ability to read and reuse engine source code	
 - Strong communication and collaboration skills
 
 <h1> Specialties </h1>
