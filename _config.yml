@@ -92,8 +92,13 @@ defaults:
       layout: single
       classes: wide
       author_profile: true      
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
+
+# Google Analytics
+google_analytics: G-LED8LXFXX2
+
 plugins:
   - jekyll-feed  
   - jekyll-include-cache
