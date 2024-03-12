@@ -97,8 +97,11 @@ defaults:
 remote_theme: "mmistakes/minimal-mistakes@4.22.0"
 
 # Google Analytics
-google_analytics: G-LED8LXFXX2
-
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-LED8LXFXX2"
+    
 plugins:
   - jekyll-feed  
   - jekyll-include-cache
