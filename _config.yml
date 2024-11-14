@@ -33,7 +33,7 @@ site.author: Truong Bui
 breadcrumbs: true
 author:
   name     : "Truong Bui"
-  avatar   : "/assets/images/truong-bui.JPG"
+  avatar   : "/assets/images/truong-bui.png"
   bio      : "Senior Game Developer \\| Unreal Engine Developer"
   location : "Vietnam"
   links:
