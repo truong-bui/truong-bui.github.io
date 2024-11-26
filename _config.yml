@@ -1,0 +1,129 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Portfolio
+email: truongbui1689@gmail.com
+name: "Truong Bui"
+time: 2021-04-18
+description: >- # this means to ignore newlines until "baseurl:"
+  I'm a passionate game developer and this is my portfolio website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://truong-bui.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: truongbui89
+github_username:  truong-bui
+repository: "truong-bui/truong-bui.github.io"
+site.author: Truong Bui
+breadcrumbs: true
+author:
+  name     : "Truong Bui"
+  avatar   : "/assets/images/truong-bui.jpg"
+  bio      : "Senior Game Developer \\| Unreal Engine Developer"
+  location : "Vietnam"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:truongbui1689@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/truongbui89/"    
+ #   - label: "Twitter"
+ #     icon: "fab fa-fw fa-twitter-square"
+ #     url: "https://twitter.com/truongbui89"            
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/truong-bui/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nullpointerstudio.com/"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:truongbui1689@gmail.com"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/truongbui89/"    
+ #   - label: "Twitter"
+ #     icon: "fab fa-fw fa-twitter-square"
+ #     url: "https://twitter.com/truongbui89"            
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/truong-bui/"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://nullpointerstudio.com/"
+
+include: ["_pages"]
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: true      
+
+# Build settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+environment: production
+
+# Google Analytics
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-LED8LXFXX2"
+    
+plugins:
+  - jekyll-feed  
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
