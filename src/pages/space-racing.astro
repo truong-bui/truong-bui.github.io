@@ -1,0 +1,31 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import YouTube from '../components/YouTube.astro';
+import Gallery from '../components/Gallery.astro';
+
+const images = [
+  { src: '/images/unity/space-racing-01.jpg' },
+  { src: '/images/unity/space-racing-02.jpg' },
+  { src: '/images/unity/space-racing-03.jpg' },
+];
+---
+
+<ProjectLayout title="Space Racing">
+  <YouTube id="fOrQ6_Q3Qy8" />
+
+  <h2>Screenshots</h2>
+  <Gallery images={images} />
+
+  <h2>Project description</h2>
+  <ul>
+    <li>Devices: Mobile</li>
+    <li>Platforms: Android, IOS</li>
+    <li>Game Engine: Unity</li>
+    <li>Game Genres: Racing</li>
+    <li>Languages: C#</li>
+  </ul>
+  <p>An infinite aircraft racing mobile game on Android and IOS platforms.</p>
+  <ul>
+    <li>Store link: <a href="https://apkpure.com/space-racing/com.nullpointer.spaceracing" target="_blank" rel="noopener noreferrer">https://apkpure.com/space-racing/com.nullpointer.spaceracing</a></li>
+  </ul>
+</ProjectLayout>

@@ -1,0 +1,81 @@
+---
+interface Props {
+  title: string;
+  excerpt: string;
+  image: string;
+  url: string;
+}
+
+const { title, excerpt, image, url } = Astro.props;
+---
+
+<a href={url} class="project-card">
+  <div class="card-image">
+    <img src={image} alt={title} loading="lazy" />
+  </div>
+  <div class="card-body">
+    <h3>{title}</h3>
+    <p>{excerpt}</p>
+    <span class="read-more">Read More</span>
+  </div>
+</a>
+
+<style>
+  .project-card {
+    display: block;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+  }
+
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+  }
+
+  .card-image {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+
+  .project-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .card-body h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: var(--text-heading);
+  }
+
+  .card-body p {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.75rem;
+  }
+
+  .read-more {
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-weight: 500;
+  }
+
+  .project-card:hover .read-more {
+    text-decoration: underline;
+  }
+</style>

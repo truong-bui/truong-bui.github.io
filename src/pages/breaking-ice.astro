@@ -1,0 +1,28 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import Gallery from '../components/Gallery.astro';
+
+const images = [
+  { src: '/images/unity/breaking-ice-01.png' },
+  { src: '/images/unity/breaking-ice-02.png' },
+  { src: '/images/unity/breaking-ice-03.png' },
+];
+---
+
+<ProjectLayout title="Breaking Ice">
+  <h2>Screenshots</h2>
+  <Gallery images={images} />
+
+  <h2>Project description</h2>
+  <ul>
+    <li>Devices: Mobile</li>
+    <li>Platforms: Android, IOS</li>
+    <li>Game Engine: Unity</li>
+    <li>Game Genres: Casual, 3D</li>
+    <li>Languages: C#</li>
+  </ul>
+  <p>A 3D casual game on Android and IOS platforms, made with Unity.</p>
+  <ul>
+    <li>Store link: <a href="https://apkpure.com/breaking-ice/com.nullpointer.breakingice" target="_blank" rel="noopener noreferrer">https://apkpure.com/breaking-ice/com.nullpointer.breakingice</a></li>
+  </ul>
+</ProjectLayout>

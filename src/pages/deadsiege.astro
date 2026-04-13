@@ -1,0 +1,42 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import YouTube from '../components/YouTube.astro';
+import Gallery from '../components/Gallery.astro';
+
+const images = [
+  { src: '/images/deadsiege/deadsiege02.png' },
+  { src: '/images/deadsiege/deadsiege03.png' },
+  { src: '/images/deadsiege/deadsiege04.png' },
+  { src: '/images/deadsiege/deadsiege05.png' },
+  { src: '/images/deadsiege/deadsiege06.png' },
+  { src: '/images/deadsiege/deadsiege07.png' },
+  { src: '/images/deadsiege/deadsiege08.png' },
+  { src: '/images/deadsiege/deadsiege09.png' },
+  { src: '/images/deadsiege/deadsiege10.png' },
+];
+---
+
+<ProjectLayout title="Deadsiege">
+  <YouTube id="maaGdmC7SbY" />
+
+  <h2>Screenshots</h2>
+  <Gallery images={images} />
+
+  <h2>Project description</h2>
+  <ul>
+    <li>Devices: PC, Mac</li>
+    <li>Platforms: Windows, macOS, Linux</li>
+    <li>Game Engine: Unreal Engine</li>
+    <li>Game Genres: RPG, Top-down</li>
+    <li>Languages: C++, Blueprint</li>
+    <li>Development Time: From 2016 to 2020</li>
+  </ul>
+  <p>
+    Deadsiege is my first indie title on PC using Unreal Engine, after 3.5 years of solo development. Most of the
+    gameplay logic, game systems are written in Unreal C++ by myself. Deadsiege is available on Windows, Linux, and macOS.
+  </p>
+  <ul>
+    <li>Steam Page: <a href="https://store.steampowered.com/app/948470/Deadsiege/" target="_blank" rel="noopener noreferrer">https://store.steampowered.com/app/948470/Deadsiege/</a></li>
+    <li>Website: <a href="https://nullpointerstudio.com/" target="_blank" rel="noopener noreferrer">https://nullpointerstudio.com/</a></li>
+  </ul>
+</ProjectLayout>

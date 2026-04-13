@@ -1,0 +1,27 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import YouTube from '../components/YouTube.astro';
+---
+
+<ProjectLayout title="Runtime Mesh Importer">
+  <img src="/images/unreal/runtime-mesh-importer-plugin-01.png" alt="Runtime Mesh Importer" style="margin-bottom: 1rem; border-radius: 8px;" />
+
+  <YouTube id="QqNyrHShu68" />
+
+  <h2>Project description</h2>
+  <p>
+    Runtime Mesh Importer is a C++ plugin for Unreal Engine, it requires integrating a third-party library into UE4.
+    Runtime Mesh Importer supports importing over +40 3D file formats into the UE4 application at runtime using
+    <a href="https://github.com/assimp/assimp" target="_blank" rel="noopener noreferrer">Assimp</a> library.
+  </p>
+  <p>Features:</p>
+  <ul>
+    <li>Easy to use and install</li>
+    <li>Automatically set up material for the imported mesh</li>
+    <li>Support importing over 40 3D formats</li>
+    <li>Support importing separate and embedded textures</li>
+    <li>Support changing various kind of texture maps at runtime</li>
+    <li>Support changing texture parameters (color, rotation, tilt, etc..)</li>
+    <li>Imported mesh are serialized for save/load system</li>
+  </ul>
+</ProjectLayout>

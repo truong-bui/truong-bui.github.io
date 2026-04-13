@@ -1,0 +1,43 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import YouTube from '../components/YouTube.astro';
+import Gallery from '../components/Gallery.astro';
+
+const images = [
+  { src: '/images/TypicalSection3D/typical-section-3d-screenshot-01.png' },
+  { src: '/images/TypicalSection3D/typical-section-3d-screenshot-02.png' },
+  { src: '/images/TypicalSection3D/typical-section-3d-screenshot-03.png' },
+  { src: '/images/TypicalSection3D/typical-section-3d-screenshot-04.png' },
+  { src: '/images/TypicalSection3D/typical-section-3d-screenshot-05.png' },
+  { src: '/images/TypicalSection3D/typical-section-3d-screenshot-06.png' },
+];
+---
+
+<ProjectLayout title="3D Typical Section Creator">
+  <YouTube id="bNnHhnhOzIc" />
+
+  <h2>Screenshots</h2>
+  <Gallery images={images} />
+
+  <h2>Project description</h2>
+  <p><strong>What are typical sections?</strong></p>
+  <p>
+    A "section" is shortened way of saying "cross-section view", a type of 2D non-perspectival drawing
+    commonly used in engineering and architecture to show what something looks like when you take a slice
+    of it and look at it head-on.
+  </p>
+  <p>
+    Similarly, a street section is a cross section view of a street, showing the widths and placement of
+    vehicle lanes, bike lanes, sidewalks, trees, street furniture or accessories (like benches or street lamps),
+    as well as engineering information like how the road is sloped to facilitate drainage, or the locations of
+    underground utilities.
+  </p>
+  <p>
+    Although sections can be simplified line drawings, urban designers and landscape architects have created
+    very colorful illustrative street sections, removing most of the engineering particulars to communicate
+    how a street could be designed to feel safe, walkable or habitable.
+  </p>
+  <p>
+    This application is the 3D version of <a href="https://streetmix.net/" target="_blank" rel="noopener noreferrer">Street Mix</a>
+  </p>
+</ProjectLayout>

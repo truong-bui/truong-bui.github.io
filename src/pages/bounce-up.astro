@@ -1,0 +1,28 @@
+---
+import ProjectLayout from '../layouts/ProjectLayout.astro';
+import Gallery from '../components/Gallery.astro';
+
+const images = [
+  { src: '/images/unity/bounce-up-01.jpg' },
+  { src: '/images/unity/bounce-up-02.jpg' },
+  { src: '/images/unity/bounce-up-03.jpg' },
+];
+---
+
+<ProjectLayout title="Bounce Up">
+  <h2>Screenshots</h2>
+  <Gallery images={images} />
+
+  <h2>Project description</h2>
+  <ul>
+    <li>Devices: Mobile</li>
+    <li>Platforms: Android, IOS</li>
+    <li>Game Engine: Unity</li>
+    <li>Game Genres: Casual</li>
+    <li>Languages: C#</li>
+  </ul>
+  <p>A cute casual game on Android and IOS platform, made with Unity.</p>
+  <ul>
+    <li>Store link: <a href="https://apkpure.com/super-bounce-up/com.nullpointer.bounceup" target="_blank" rel="noopener noreferrer">https://apkpure.com/super-bounce-up/com.nullpointer.bounceup</a></li>
+  </ul>
+</ProjectLayout>
