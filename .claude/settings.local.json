@@ -8,7 +8,10 @@
       "Bash(cp favicon.ico public/favicon.ico)",
       "Bash(rm -rf astro-temp)",
       "Bash(npm install:*)",
-      "Bash(npx astro:*)"
+      "Bash(npx astro:*)",
+      "Bash(npx tsc:*)",
+      "Bash(git check-ignore:*)",
+      "Bash(ls \"D:/Ruby/truong-bui.github.io/dist/sitemap\"* \"D:/Ruby/truong-bui.github.io/dist/robots.txt\")"
     ]
   }
 }

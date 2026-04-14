@@ -17,7 +17,19 @@ const {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <title>Portfolio | Truong Bui</title>
+    <link rel="canonical" href={Astro.url.href} />
+    <title>{title} | Truong Bui</title>
+    <!-- Open Graph -->
+    <meta property="og:title" content={`${title} | Truong Bui`} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={Astro.url.href} />
+    <meta property="og:image" content={new URL('/images/truong-bui.jpg', Astro.site).href} />
+    <meta property="og:site_name" content="Truong Bui Portfolio" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content={`${title} | Truong Bui`} />
+    <meta name="twitter:description" content={description} />
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-LED8LXFXX2"
     ></script>
@@ -95,7 +107,7 @@ const {
             ></a
           >
           <a
-            href="https://nullpointerstudio.com/"
+            href="https://truong-bui.github.io/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Website"
