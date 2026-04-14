@@ -1,81 +1,20 @@
 ---
+import { getCollection } from "astro:content";
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 
-const projects = [
-  {
-    title: "3D Typical Section Creator",
-    excerpt: "UE4 Application | C++",
-    image: "/images/TypicalSection3D/typical-section-3d-screenshot-05.png",
-    url: "/3d-typical-section",
-  },
-  {
-    title: "Async Loading Screen",
-    excerpt: "UE4 Plugin | C++",
-    image: "/images/unreal/AsyncLoadingScreenBackground.png",
-    url: "/async-loading-screen",
-  },
-  {
-    title: "Runtime Mesh Importer",
-    excerpt: "UE4 Plugin | C++",
-    image: "/images/unreal/runtime-mesh-importer-plugin-01.png",
-    url: "/runtime-mesh-importer",
-  },
-  {
-    title: "Message Chat",
-    excerpt: "UE4 Plugin | C++",
-    image: "/images/unreal/messaging-chat-plugin-screenshot-final.png",
-    url: "/message-chat-plugin",
-  },
-  {
-    title: "Deadsiege",
-    excerpt: "UE4 Game | C++ | Blueprint",
-    image: "/images/deadsiege/deadsiege01.png",
-    url: "/deadsiege",
-  },
-  {
-    title: "OnlyView Plugin",
-    excerpt: "UE4 Plugin | C++",
-    image: "/images/unreal/onlyviewplugins.png",
-    url: "/onlyviewplugin",
-  },
-  {
-    title: "Zombie Shooting",
-    excerpt: "Unity Game | C#",
-    image: "/images/unity/survive-the-zombie-attack-01.png",
-    url: "/zombie-shooting",
-  },
-  {
-    title: "Space Racing",
-    excerpt: "Unity Game | C#",
-    image: "/images/unity/space-racing-01.jpg",
-    url: "/space-racing",
-  },
-  {
-    title: "Army Of One",
-    excerpt: "Unity Game | C#",
-    image: "/images/unity/army-of-one-01.png",
-    url: "/army-of-one",
-  },
-  {
-    title: "2D Games Box",
-    excerpt: "Unity Game | C#",
-    image: "/images/unity/2d-games-box-thumnail-01.jpg",
-    url: "/2d-games-box",
-  },
-  {
-    title: "Bounce Up",
-    excerpt: "Unity Game | C#",
-    image: "/images/unity/bounce-up-thumb.jpg",
-    url: "/bounce-up",
-  },
-  {
-    title: "Breaking Ice",
-    excerpt: "Unity Game | C#",
-    image: "/images/unity/breaking-ice-01.png",
-    url: "/breaking-ice",
-  },
-];
+const allProjects = await getCollection("projects");
+
+// Group by year, sorted newest first
+const projectsByYear = new Map<number, typeof allProjects>();
+for (const project of allProjects) {
+  const year = project.data.year;
+  if (!projectsByYear.has(year)) {
+    projectsByYear.set(year, []);
+  }
+  projectsByYear.get(year)!.push(project);
+}
+const sortedYears = [...projectsByYear.keys()].sort((a, b) => b - a);
 ---
 
 <BaseLayout title="Home">
@@ -96,18 +35,23 @@ const projects = [
       <section>
         <h1>My Projects</h1>
         <hr />
-        <div class="projects-grid">
-          {
-            projects.map((project) => (
-              <ProjectCard
-                title={project.title}
-                excerpt={project.excerpt}
-                image={project.image}
-                url={project.url}
-              />
-            ))
-          }
-        </div>
+        {
+          sortedYears.map((year) => (
+            <div class="year-group">
+              <h2 class="year-heading">{year}</h2>
+              <div class="projects-grid">
+                {projectsByYear.get(year)!.map((project) => (
+                  <ProjectCard
+                    title={project.data.title}
+                    excerpt={project.data.excerpt}
+                    image={project.data.image}
+                    url={`/${project.data.slug}`}
+                  />
+                ))}
+              </div>
+            </div>
+          ))
+        }
       </section>
 
       <p>Feel free to contact me if you have any questions/remarks!</p>
@@ -229,11 +173,22 @@ const projects = [
     margin-bottom: 2rem;
   }
 
+  .year-group {
+    margin-bottom: 2rem;
+  }
+
+  .year-heading {
+    font-size: 1.25rem;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 0.4rem;
+    margin-bottom: 1rem;
+  }
+
   .projects-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
-    margin-top: 1rem;
   }
 
   .author-sidebar {
