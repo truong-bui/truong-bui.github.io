@@ -16,10 +16,12 @@ import YouTube from '../../components/YouTube.astro';
 Runtime Mesh Importer is a C++ plugin for Unreal Engine, it requires integrating a third-party library into UE4. Runtime Mesh Importer supports importing over +40 3D file formats into the UE4 application at runtime using [Assimp](https://github.com/assimp/assimp) library.
 
 Features:
-- Easy to use and install
-- Automatically set up material for the imported mesh
-- Support importing over 40 3D formats
-- Support importing separate and embedded textures
-- Support changing various kind of texture maps at runtime
-- Support changing texture parameters (color, rotation, tilt, etc..)
-- Imported mesh are serialized for save/load system
+- Import 3D meshes at runtime from 40+ file formats (FBX, OBJ, glTF, COLLADA, STL, and more)
+- Full PBR material pipeline with support for Diffuse, Normal, Metallic, Specular, Roughness, Emissive, and Ambient Occlusion textures
+- Handles both external file textures and embedded textures
+- UV transform controls (rotation, scale, offset)
+- Save and load imported meshes to/from compressed files
+- Blueprint-callable file dialogs for 3D files and textures
+- Custom vertex transforms on import
+- Built on UE5's ProceduralMeshComponent (no third-party mesh component plugin required)
+- Source code: [https://github.com/truong-bui/RTMeshImporter](https://github.com/truong-bui/RTMeshImporter)
